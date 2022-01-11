@@ -1,0 +1,38 @@
+Progress: resolved 1, reused 0, downloaded 0, added 0
+Progress: resolved 469, reused 461, downloaded 1, added 0
+Progress: resolved 1414, reused 1411, downloaded 1, added 0
+Packages: +2 -1
+++-
+
+dependencies:
++ @testing-library/dom 8.11.1
+- @testing-library/user-event 12.8.3
++ @testing-library/user-event 12.8.3
+
+ WARN  Issues with peer dependencies found
+.
+├─┬ react-scripts
+│ ├── ✕ missing peer typescript@"^3.2.1 || ^4"
+│ ├─┬ @typescript-eslint/eslint-plugin
+│ │ ├── ✕ missing peer typescript@"*"
+│ │ └─┬ @typescript-eslint/experimental-utils
+│ │   └─┬ @typescript-eslint/typescript-estree
+│ │     ├── ✕ missing peer typescript@"*"
+│ │     └─┬ tsutils
+│ │       └── ✕ missing peer typescript@">=2.8.0 || >= 3.2.0-dev || >= 3.3.0-dev || >= 3.4.0-dev || >= 3.5.0-dev || >= 3.6.0-dev || >= 3.6.0-beta || >= 3.7.0-dev || >= 3.7.0-beta"
+│ ├─┬ @typescript-eslint/parser
+│ │ └── ✕ missing peer typescript@"*"
+│ ├─┬ eslint-plugin-testing-library
+│ │ └─┬ @typescript-eslint/experimental-utils
+│ │   └─┬ @typescript-eslint/typescript-estree
+│ │     └── ✕ missing peer typescript@"*"
+│ └─┬ @svgr/webpack
+│   └─┬ @babel/preset-env
+│     └─┬ @babel/plugin-bugfix-v8-spread-parameters-in-optional-chaining
+│       └── ✕ unmet peer @babel/core@^7.13.0: found 7.12.3 in @svgr/webpack
+└─┬ ts-pnp
+  └── ✕ missing peer typescript@"*"
+Peer dependencies that should be installed:
+  typescript@">=3.2.1 <4.0.0 || >=4.0.0 <5.0.0"
+
+Progress: resolved 1469, reused 1466, downloaded 1, added 2, done
